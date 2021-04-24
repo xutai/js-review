@@ -1,0 +1,30 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "js basis to reviews",
+  "main": "playground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xutai/js-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xutai/js-review/issues"
+  },
+  "homepage": "https://github.com/xutai/js-review#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "jshint": "^2.12.0"
+  },
+    "dependencies": {
+    "@babel/polyfill": "^7.4.3"
+  }
+}

@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Launch Program",
-            "program": "${workspaceFolder}/playground.js",
+            "program": "${workspaceFolder}/playground.ts",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
