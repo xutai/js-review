@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch playground.html",
+            "file": "${workspaceFolder}/playground.html"
+        },
+        {
             "name": "Launch Program",
             "program": "${workspaceFolder}/playground.ts",
             "request": "launch",
@@ -12,15 +19,7 @@
                 "<node_internals>/**"
             ],
             "type": "pwa-node"
-        },
-        {
-            "type": "pwa-node",
-            "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\playground.js"
         }
+
     ]
 }
