@@ -13,7 +13,7 @@
         },
         {
             "name": "Launch Program",
-            "program": "${workspaceFolder}/playground.ts",
+            "program": "${workspaceFolder}/playground.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
